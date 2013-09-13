@@ -1,0 +1,153 @@
+body {font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;}
+#container {width:950px;overflow:hidden;margin:0 auto;}
+#container h1 {background:url(../images/banner.jpg) no-repeat;width:950px;height:265px;}
+#container h1 a {text-indent:-9999em;display:block;width:950px;height:265px;}	
+#container #quotes{background:url(../images/blurb.jpg) no-repeat;width:535px;height:119px;text-indent:-9999em;margin:0 auto;}
+#container ol#links {margin:0 auto;width:550px;}
+#container ol#links li{float:left;width:120px;height:120px;margin:6px;}
+#container ol#links li a {
+	text-indent:-9999em;
+	display:block;
+	width:120px;
+	height:120px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#container ol#links li.on{height:143px;}
+#container ol#links li#whatWeDo{background:url(../images/do.jpg) no-repeat;}
+#container ol#links li#whatWeBelieve{background:url(../images/believe.jpg) no-repeat;}
+#container ol#links li#whoWeAre{background:url(../images/are.jpg) no-repeat;}
+#container ol#links li#theTeam{background:url(../images/team.jpg) no-repeat;}
+
+#container ol#links li#whatWeDo.on{
+	background:url(../images/do_on.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 17px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#container ol#links li#whatWeBelieve.on{
+	background:url(../images/believe_on.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 17px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#container ol#links li#whoWeAre.on{
+	background:url(../images/are_on.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 12px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+#container ol#links li#theTeam.on{
+	background:url(../images/team_on.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+#container ol#links li#whatWeDo.off{
+	background:url(../images/do_off.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 17px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#container ol#links li#whatWeBelieve.off{
+	background:url(../images/believe_off.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 17px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#container ol#links li#whoWeAre.off{
+	background:url(../images/are_off.jpg) no-repeat;
+	margin-top: 5px;
+	margin-right: 12.5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#container ol#links li#theTeam.off{
+	background:url(../images/team_off.jpg) no-repeat;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#container #content{
+	clear:both;
+	width:530px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+#container #content sup{vertical-align: super;font-size: 9px;}
+#container #content p{margin:10px 0;line-height:18px;}
+#container #content ul.{list-style:disc;}
+#container #content ul.list li{margin-left:50px;line-height:16px;padding:5px 0;font-size:16px ;}
+
+#container.do #content, #container.team #content{
+	color:#3e8ceb;
+}
+#container.believe #content {color:#0fb933;}
+#container.are #content {color:#fb7f06;}
+#container.team #content strong{
+	color:#3e8ceb;
+	font-weight:bold;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+h2 {
+	font-family: 'Arvo', Georgia, Times, serif;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+pi {
+
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+    text-indent: 2.0em;  
+}
+
+pii {
+
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+    text-indent: 2.0em;  
+}
+
+.twitter-follow-button {
+	padding-top: 10px;
+	padding-left: 590px;
+}
+
+.paypal form {
+	padding-top: 8px;
+	padding-left: 10px;
+}
+
+#footer {
+	font-size: 12px;
+
+{
